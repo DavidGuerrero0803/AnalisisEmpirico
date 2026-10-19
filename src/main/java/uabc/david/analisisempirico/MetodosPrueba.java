@@ -13,5 +13,12 @@ public class MetodosPrueba {
         return ((n * (n + 1)) / 2);
     }
 
+    public static long sumatoriaRecursiva(long n) {
+        if (n == 1) {
+            return n;
+        }
+        return n + (sumatoriaRecursiva(n - 1));
+    }
+
 
 }
