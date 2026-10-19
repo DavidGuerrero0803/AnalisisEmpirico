@@ -8,4 +8,10 @@ public class MetodosPrueba {
         }
         return sumatoria;
     }
+
+    public static long sumatoriaGauss(long n) {
+        return ((n * (n + 1)) / 2);
+    }
+
+
 }
