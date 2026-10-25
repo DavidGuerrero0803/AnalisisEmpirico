@@ -21,5 +21,14 @@ public class Main {
             long endTime = System.nanoTime();
             System.out.println("N = " + i + ", Resultado: " + resultado + ", Tiempo: " + (endTime - startTime) + " ns");
         }
+
+        // Prueba con la sumatoria recursiva.
+        System.out.println("\nSUMATORIA RECURSIVA");
+        for (long i = 100; i <= MAX; i *= 10) {
+            long startTime = System.nanoTime();
+            long resultado = MetodosPrueba.sumatoriaRecursiva(i);
+            long endTime = System.nanoTime();
+            System.out.println("N = " + i + ", Resultado: " + resultado + ", Tiempo: " + (endTime - startTime) + " ns");
+        }
     }
 }
